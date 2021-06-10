@@ -8,28 +8,41 @@ html {
 }
 
 .firstbox {
-    width: 150px;
-    height: 150px;
+    width: 320px;
+    height: 320px;
     background-color: red;
     border: 2px solid black;
     margin: 10px 40px;
     
 }
 
-.secondbox {
-    width: 150px;
-    height: 150px;
+.horizontal_dashed_line {
+    width: 320px;
+    height: 320px;
     background-color: blue;
-    border: 2px dotted yellow;
+    border: 10px dashed yellow;
+    border-width: 4px;
     margin: 10px 40px;
     
 }
 
 .thirdbox {
-    width: 150px;
-    height: 150px;
+    width: 320px;
+    height: 320px;
     background-color: green;
     border: 2px solid red;
     margin: 10px 40px;
     
+}
+
+h3 {
+    color: blue;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-thickness: 1px;
+}
+
+.firstbutton {
+    background-color: grey;
+    margin: 40px 15px;
 }
