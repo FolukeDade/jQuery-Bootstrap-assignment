@@ -37,12 +37,42 @@ html {
 
 h3 {
     color: blue;
+    display: grid;
+    margin: 40px;
     text-align: center;
     text-decoration-line: underline;
     text-decoration-thickness: 1px;
 }
 
-.firstbutton {
+.changebox1 {
+    width: 10px;
+    height: 30px;
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin: 30px 30px 30px;
     background-color: grey;
-    margin: 40px 15px;
+}
+
+h4 {
+    color: blue;
+    display: block;
+    text-align: center;
+    font-size:17px ;
+    text-decoration-line: underline;
+    text-decoration-thickness: 1px;
+}
+
+.container.secondcontainer {
+    background-color: grey;
+    display: block;
+    
+}
+
+.container.thirdcontainer {
+    background-color: grey;
+    display: block;
+    width: 30px 30px 30px 30px;
+    margin-right: 500px;
+    
 }
