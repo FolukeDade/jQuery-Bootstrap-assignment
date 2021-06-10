@@ -1,0 +1,35 @@
+html {
+    text-align: center;
+}
+
+.weekheading {
+    text-decoration-line: underline;
+    text-decoration-thickness: 3px;
+}
+
+.firstbox {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border: 2px solid black;
+    margin: 10px 40px;
+    
+}
+
+.secondbox {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    border: 2px dotted yellow;
+    margin: 10px 40px;
+    
+}
+
+.thirdbox {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    border: 2px solid red;
+    margin: 10px 40px;
+    
+}
