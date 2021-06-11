@@ -89,7 +89,7 @@ h4 {
     text-decoration-thickness: 1px;
 }
 
-.fisrtbtn.Hidebox {
+.fisrtbtn.hidebox {
     width: 10px;
     height: 30px;
     display: block;
@@ -98,7 +98,7 @@ h4 {
     margin: 10px, 10px, 10px;
 }
 
-.secondbtn.Hidebox {
+.secondbtn.hidebox {
     width: 10px;
     height: 30px;
     display: block;
@@ -107,7 +107,7 @@ h4 {
     margin: 10px, 10px, 10px;
 }
 
-.thirdbtn.Hidebox {
+.thirdbtn.hidebox {
     width: 10px;
     height: 30px;
     display: block;
@@ -116,7 +116,7 @@ h4 {
     margin: 10px, 10px, 10px;
 }
 
-.fourthbtn.Hidebox {
+.fourthbtn.hidebox {
     width: 10px;
     height: 30px;
     display: block;
@@ -130,15 +130,17 @@ h4 {
     height: 30px;
     display: block;
     margin-right: 20px;
-    margin-left: 20px;
-    margin: 10px, 10px, 10px;
+    margin-left: 100px;
+    margin-top: 100px;
+    margin: 80px, 80px, 80px, 80px;
 }
 
-.fisrtbtn.showbutton {
+.secondbtn.showbutton {
     width: 10px;
     height: 30px;
     display: block;
     margin-right: 20px;
-    margin-left: 20px;
-    margin: 80px, 80px, 80px;
+    margin-left: 100px;
+    margin-top: 100px;
+    margin: 80px, 80px, 80px, 80px;
 }
