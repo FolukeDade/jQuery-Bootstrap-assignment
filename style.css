@@ -44,14 +44,40 @@ h3 {
     text-decoration-thickness: 1px;
 }
 
-.changebox1 {
+.firstbtn {
     width: 10px;
     height: 30px;
     display: block;
-    margin-left: 20px;
     margin-right: 20px;
-    margin: 30px 30px 30px;
-    background-color: grey;
+    margin-left: 20px;
+    margin: 10px, 10px, 10px;
+}
+
+.secondbtn {
+    width: 10px;
+    height: 30px;
+    display: block;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin: 10px, 10px, 10px;
+}
+
+.thirdbtn {
+    width: 10px;
+    height: 30px;
+    display: block;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin: 10px, 10px, 10px;
+}
+
+.fourthbtn {
+    width: 10px;
+    height: 30px;
+    display: block;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin: 10px, 10px, 10px;
 }
 
 h4 {
@@ -63,16 +89,56 @@ h4 {
     text-decoration-thickness: 1px;
 }
 
-.container.secondcontainer {
-    background-color: grey;
+.fisrtbtn.Hidebox {
+    width: 10px;
+    height: 30px;
     display: block;
-    
+    margin-right: 20px;
+    margin-left: 20px;
+    margin: 10px, 10px, 10px;
 }
 
-.container.thirdcontainer {
-    background-color: grey;
+.secondbtn.Hidebox {
+    width: 10px;
+    height: 30px;
     display: block;
-    width: 30px 30px 30px 30px;
-    margin-right: 500px;
-    
+    margin-right: 20px;
+    margin-left: 20px;
+    margin: 10px, 10px, 10px;
+}
+
+.thirdbtn.Hidebox {
+    width: 10px;
+    height: 30px;
+    display: block;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin: 10px, 10px, 10px;
+}
+
+.fourthbtn.Hidebox {
+    width: 10px;
+    height: 30px;
+    display: block;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin: 10px, 10px, 10px;
+}
+
+.fisrtbtn.resetbutton {
+    width: 10px;
+    height: 30px;
+    display: block;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin: 10px, 10px, 10px;
+}
+
+.fisrtbtn.showbutton {
+    width: 10px;
+    height: 30px;
+    display: block;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin: 80px, 80px, 80px;
 }
