@@ -1,6 +1,11 @@
 $( document ).ready(function() {
 
-    console.log( "ready!" );
+  $( ".change" ).click(function() {
+
+    console.log("chnnge btn link clicked");
+    $(".box1").addClass("newbox4");
+    
+  })
 
     $( ".changebtn1" ).click(function() {
 
@@ -53,6 +58,15 @@ $( document ).ready(function() {
         
       });
 
+      $( ".hidebtn4" ).click(function() {
+
+        console.log("hide all clicked");
+        $(".box1").css({"background":"white","border":"2px solid white"});
+        $(".box2").css({"background":"white","border":"2px solid white"});
+        $(".box3").css({"background":"white","border":"2px solid white"});
+        
+      });
+
       $( ".resetcolors" ).click(function() {
 
         console.log("change all clicked");
@@ -62,9 +76,9 @@ $( document ).ready(function() {
         
       }); 
 
-      $( ".changebtn4" ).click(function() {
+      $( ".showall" ).click(function() {
 
-        console.log("change all clicked");
+        console.log("show all clicked");
         $(".box1").css({"background":"purple","border":"2px dashed pink"});
         $(".box2").css({"background":"grey","border":"2px solid black"});
         $(".box3").css({"background":"cyan","border":"2px dashed red"});

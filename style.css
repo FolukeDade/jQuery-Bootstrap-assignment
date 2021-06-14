@@ -4,19 +4,15 @@ html {
 
 .p {
     font: 18;
-    padding-top: 50px;
+    margin: 50px 0px;
 }
 
 h1 {
     text-decoration-line: underline;
     font-weight: 100;
+    padding: 50px 0px;
    
 }
-
-/* .topboxes { 
-    height: 190px;
-           
-/* } * */
 
 h3 {
     color: blue;
@@ -57,25 +53,33 @@ h3 {
 
 }
 
-.p1 { 
-    color: blue;
-    margin: 20px 20px;
-    text-decoration-line: underline;
-    font-size: small;
-}
-
 .hidebtn {
+    background: #c5c5c5;
+    padding: 5px 10px;
     margin-right: 5px;
     margin-top: 15px;
+    width: 100%;
+    display: inline-block;
+
 }
+
+.h5 { 
+    color: blue;
+    text-decoration-line: underline;
+}
+
 
 .noleftpadding {
     padding-left:0;
-
+   
 }
 
 .norightpadding {
     padding-left:0;
+}
+
+.restcolors {
+    padding-top: 25px;
 }
 
 .newbox1 {
