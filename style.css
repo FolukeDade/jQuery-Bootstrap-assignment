@@ -2,18 +2,32 @@ html {
     text-align: center;
 }
 
-h1 {
-    text-decoration-line: underline;
-    text-decoration-thickness: 3px;
+.p {
+    font: 18;
+    padding-top: 50px;
 }
 
-.topboxes div {
-    height:190px;
+h1 {
+    text-decoration-line: underline;
+    font-weight: 100;
+   
+}
+
+/* .topboxes { 
+    height: 190px;
+           
+/* } * */
+
+h3 {
+    color: blue;
+    text-decoration-line: underline;
 }
 
 .box1 {
     background: red;
     border: 2px solid black;
+    width: 250px;
+    height: 250px;
     
 }
 
@@ -21,16 +35,20 @@ h1 {
     background: blue;
     border: 2px dashed yellow;
     margin: 0px 60px;
+    width: 250px;
+    height: 250px;
     
 }
 
 .box3 {
     background: green;
     border: 2px solid purple;
+    width: 250px;
+    height: 250px;
 }
 
 .changebtn {
-    background: #c5c5c5;
+    background: gray;
     padding: 5px 10px;
     margin-right: 5px;
     width: 100%;
@@ -38,18 +56,19 @@ h1 {
 
 }
 
+.p1 { 
+    color: blue;
+    text-decoration-line: underline;
+    font-size: medium;
+}
+
 .noleftpadding {
-    padding-left: 0;
+    padding-left:0;
 
 }
 
 .norightpadding {
-    width: 10px;
-    height: 30px;
-    display: block;
-    margin-right: 20px;
-    margin-left: 20px;
-    margin: 10px, 10px, 10px;
+    padding-left:0;
 }
 
 .newbox1 {
@@ -57,67 +76,12 @@ h1 {
     border: 2px dotted pink;
 }
 
-h4 {
-    color: blue;
-    display: block;
-    text-align: center;
-    font-size:17px ;
-    text-decoration-line: underline;
-    text-decoration-thickness: 1px;
+.newbox2 {
+    background: #00CED1;
+    border: 2px solid #000000;
 }
 
-.fisrtbtn.hidebox {
-    width: 10px;
-    height: 30px;
-    display: block;
-    margin-right: 20px;
-    margin-left: 20px;
-    margin: 10px, 10px, 10px;
-}
-
-.secondbtn.hidebox {
-    width: 10px;
-    height: 30px;
-    display: block;
-    margin-right: 20px;
-    margin-left: 20px;
-    margin: 10px, 10px, 10px;
-}
-
-.thirdbtn.hidebox {
-    width: 10px;
-    height: 30px;
-    display: block;
-    margin-right: 20px;
-    margin-left: 20px;
-    margin: 10px, 10px, 10px;
-}
-
-.fourthbtn.hidebox {
-    width: 10px;
-    height: 30px;
-    display: block;
-    margin-right: 20px;
-    margin-left: 20px;
-    margin: 10px, 10px, 10px;
-}
-
-.fisrtbtn.resetbutton {
-    width: 10px;
-    height: 30px;
-    display: block;
-    margin-right: 20px;
-    margin-left: 100px;
-    margin-top: 100px;
-    margin: 80px, 80px, 80px, 80px;
-}
-
-.secondbtn.showbutton {
-    width: 10px;
-    height: 30px;
-    display: block;
-    margin-right: 20px;
-    margin-left: 100px;
-    margin-top: 100px;
-    margin: 80px, 80px, 80px, 80px;
+.newbox3 {
+    background: #F4A460;
+    border: 2px dotted #5FAFF5;
 }
