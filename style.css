@@ -48,9 +48,10 @@ h3 {
 }
 
 .changebtn {
-    background: gray;
+    background: #c5c5c5;
     padding: 5px 10px;
     margin-right: 5px;
+    margin-top: 15px;
     width: 100%;
     display: inline-block;
 
@@ -58,8 +59,14 @@ h3 {
 
 .p1 { 
     color: blue;
+    margin: 20px 20px;
     text-decoration-line: underline;
-    font-size: medium;
+    font-size: small;
+}
+
+.hidebtn {
+    margin-right: 5px;
+    margin-top: 15px;
 }
 
 .noleftpadding {
@@ -84,4 +91,9 @@ h3 {
 .newbox3 {
     background: #F4A460;
     border: 2px dotted #5FAFF5;
+}
+
+.newbox4 {
+    background:#FFFFFF;
+    border: 2px solid #FFFFFF;
 }
