@@ -5,12 +5,14 @@ $( document ).ready(function() {
     $( ".changebtn1" ).click(function() {
 
         console.log("change btn 1 clicked");
+        $(".box1").addClass("newbox1");
         
       });
 
       $( ".changebtn2" ).click(function() {
 
         console.log("change btn 2 clicked");
+        $(".box2").css({"background":"red","border":"2px solid blue"});
         
       });
 
