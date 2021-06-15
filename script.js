@@ -1,9 +1,9 @@
 $( document ).ready(function() {
 
-  $( ".change" ).click(function() {
+  $( ".changelink" ).click(function() {
 
-    console.log("chnnge btn link clicked");
-    $(".box1").addClass("newbox4");
+    console.log("change link clicked");
+    $(".changebtn4").addClass("changebtn4");
     
   })
 
@@ -36,6 +36,13 @@ $( document ).ready(function() {
         $(".box3").css({"background":"cyan","border":"2px dashed red"});
         
       }); 
+
+      $( ".hidelink" ).click(function() {
+
+        console.log("hide link clicked");
+        $(".changebtn4").addClass("changebtn4");
+        
+      })
 
       $( ".hidebtn1" ).click(function() {
 
