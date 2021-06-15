@@ -4,6 +4,7 @@ $( document ).ready(function() {
 
     console.log("change link clicked");
     $(".changebtn").addClass("newchangelink");
+    $(".hidebtn").addClass("newchangelink");
     
   })
 
@@ -41,6 +42,7 @@ $( document ).ready(function() {
 
         console.log("hide link clicked");
         $(".hidebtn").addClass("newhidelink");
+        $(".changebtn").addClass("newhidelink");
         
       })
 
