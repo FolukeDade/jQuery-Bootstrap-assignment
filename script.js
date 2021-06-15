@@ -3,7 +3,7 @@ $( document ).ready(function() {
   $( ".changelink" ).click(function() {
 
     console.log("change link clicked");
-    $(".changebtn4").addClass("changebtn4");
+    $(".changebtn").addClass("newchangelink");
     
   })
 
@@ -40,7 +40,7 @@ $( document ).ready(function() {
       $( ".hidelink" ).click(function() {
 
         console.log("hide link clicked");
-        $(".changebtn4").addClass("changebtn4");
+        $(".hidebtn").addClass("newhidelink");
         
       })
 
@@ -76,7 +76,7 @@ $( document ).ready(function() {
 
       $( ".resetcolors" ).click(function() {
 
-        console.log("change all clicked");
+        console.log("reset colors clicked");
         $(".box1").css({"background":"red","border":"2px solid black"});
         $(".box2").css({"background":"blue","border":"2px dashed yellow"});
         $(".box3").css({"background":"green","border":"2px solid purple"});
