@@ -56,8 +56,6 @@ html {
 .hidebtn {
     background: #c5c5c5;
     padding: 5px 10px;
-    margin-right: 5px;
-    margin-top: 15px;
     width: 100%;
     display: inline-block;
 
@@ -79,7 +77,8 @@ html {
 }
 
 .restcolors {
-    padding-top: 25px;
+    margin-top: 25px;
+  
 }
 
 .newbox1 {
@@ -103,7 +102,7 @@ html {
 }
 
 .newchangelink {
-    background:#368200;
+    background: #1FC2DB;
     border: 2px solid #4C0082;
 }
 
